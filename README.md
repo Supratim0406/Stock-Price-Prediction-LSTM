@@ -1,4 +1,4 @@
-# # BHARTI AIRTEL Stock Price Prediction Using Time Series Models (Prophet, LSTM & GRU)
+## BHARTI AIRTEL Stock Price Prediction Using Time Series Models (Prophet, LSTM & GRU)
 End to End Project of Stock-Price-Prediction using LSTM model
 
 
