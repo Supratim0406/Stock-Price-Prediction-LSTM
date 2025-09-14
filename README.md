@@ -3,10 +3,10 @@ End to End Project of Stock-Price-Prediction using LSTM model
 
 
 ## Overview
-This project aims to predict the future stock prices of **Bharti Airtel (BHARTIARTL)** using historical stock data. The project applies multiple time series forecasting techniques, including **Prophet**, **ARIMA**, and **LSTM** (Long Short-Term Memory), to predict stock prices based on patterns observed in past data. The goal is to help investors and analysts make informed decisions based on future stock predictions.
+This project aims to predict the future stock prices of **Bharti Airtel (BHARTIARTL)** using historical stock data. The project applies multiple time series forecasting techniques, including **Prophet** and **LSTM** (Long Short-Term Memory), to predict stock prices based on patterns observed in past data. The goal is to help investors and analysts make informed decisions based on future stock predictions.
 
 ## Objective
-The main objective of this project is to develop accurate forecasting models to predict **TCS stock prices**. By leveraging historical data, this project explores different time series forecasting techniques and evaluates their performance in stock price prediction.
+The main objective of this project is to develop accurate forecasting models to predict **BHARTIARTL stock prices**. By leveraging historical data, this project explores different time series forecasting techniques and evaluates their performance in stock price prediction.
 
 ## Technologies Used
 - **Python Libraries**:
@@ -31,7 +31,6 @@ The dataset used in this project contains historical stock price data for TCS, i
 - `High`: The highest price during the day.
 - `Low`: The lowest price during the day.
 - `Close`: The stock price at market close.
-- `Adj Close`: The adjusted closing price accounting for splits and dividends.
 - `Volume`: The number of shares traded on the day.
 
 The data is available in CSV format and is loaded into a **pandas DataFrame** for processing.
@@ -72,6 +71,3 @@ This project demonstrates the application of multiple time series forecasting te
 - **LSTM** proved valuable in learning complex, non-linear patterns in the data.
 
 The models offer useful predictions that can assist traders and investors in making informed decisions. Further improvements can be made by fine-tuning the models, incorporating more features, and testing with other stock data.
-
-Feel free to copy and paste this `README.md` directly into your GitHub repository! Let me know if you need any adjustments.
-
