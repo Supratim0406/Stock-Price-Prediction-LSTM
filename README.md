@@ -3,7 +3,7 @@ End to End Project of Stock-Price-Prediction using LSTM model
 
 
 ## Overview
-This project aims to predict the future stock prices of **Bharti Airtel (BHARTIARTL)** using historical stock data. The project applies multiple time series forecasting techniques, including **Prophet** and **LSTM** (Long Short-Term Memory), to predict stock prices based on patterns observed in past data. The goal is to help investors and analysts make informed decisions based on future stock predictions.
+This project aims to predict the future stock prices of **Bharti Airtel (BHARTIARTL)** using historical stock data. The project applies multiple time series forecasting techniques, including **Prophet**, **GRU** and **LSTM** (Long Short-Term Memory), to predict stock prices based on patterns observed in past data. The goal is to help investors and analysts make informed decisions based on future stock predictions.
 
 ## Objective
 The main objective of this project is to develop accurate forecasting models to predict **BHARTIARTL stock prices**. By leveraging historical data, this project explores different time series forecasting techniques and evaluates their performance in stock price prediction.
@@ -23,6 +23,9 @@ The main objective of this project is to develop accurate forecasting models to 
 
 2. **LSTM (Long Short-Term Memory)**:
    - LSTM is a type of recurrent neural network (RNN) designed for sequential data. It is particularly useful for time series forecasting as it captures long-term dependencies in the data. This model was used to predict future stock prices by learning patterns over time.
+  
+3. **GRU ( Gated Recurrent Units)**:
+   - Gated Recurrent Units (GRUs) are a type of RNN introduced by Cho et al. in 2014. The core idea behind GRUs is to use gating mechanisms to selectively update the hidden state at each time step allowing them to remember important information while discarding irrelevant details. GRUs aim to simplify the LSTM architecture by merging some of its components and focusing on just two main gates: the update gate and the reset gate.
 
 ## Dataset
 The dataset used in this project contains historical stock price data for TCS, including:
@@ -69,5 +72,6 @@ The data is available in CSV format and is loaded into a **pandas DataFrame** fo
 This project demonstrates the application of multiple time series forecasting techniques to predict TCS stock prices. Each model provided unique insights into the stock's behavior:
 - **Prophet** excelled in capturing seasonal patterns and long-term trends.
 - **LSTM** proved valuable in learning complex, non-linear patterns in the data.
+- - **GRU** proved to more efficient. Faster due to simpler architecture and Computational load is lower  due to fewer gates (Reset and update gate) and parameters
 
 The models offer useful predictions that can assist traders and investors in making informed decisions. Further improvements can be made by fine-tuning the models, incorporating more features, and testing with other stock data.
