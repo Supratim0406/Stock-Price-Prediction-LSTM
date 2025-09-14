@@ -3,7 +3,7 @@ End to End Project of Stock-Price-Prediction using LSTM model
 
 
 ## Overview
-This project aims to predict the future stock prices of **Bharti Airtel (TCS)** using historical stock data. The project applies multiple time series forecasting techniques, including **Prophet**, **ARIMA**, and **LSTM** (Long Short-Term Memory), to predict stock prices based on patterns observed in past data. The goal is to help investors and analysts make informed decisions based on future stock predictions.
+This project aims to predict the future stock prices of **Bharti Airtel (BHARTIARTL)** using historical stock data. The project applies multiple time series forecasting techniques, including **Prophet**, **ARIMA**, and **LSTM** (Long Short-Term Memory), to predict stock prices based on patterns observed in past data. The goal is to help investors and analysts make informed decisions based on future stock predictions.
 
 ## Objective
 The main objective of this project is to develop accurate forecasting models to predict **TCS stock prices**. By leveraging historical data, this project explores different time series forecasting techniques and evaluates their performance in stock price prediction.
