@@ -72,6 +72,6 @@ The data is available in CSV format and is loaded into a **pandas DataFrame** fo
 This project demonstrates the application of multiple time series forecasting techniques to predict TCS stock prices. Each model provided unique insights into the stock's behavior:
 - **Prophet** excelled in capturing seasonal patterns and long-term trends.
 - **LSTM** proved valuable in learning complex, non-linear patterns in the data.
-- - **GRU** proved to more efficient. Faster due to simpler architecture and Computational load is lower  due to fewer gates (Reset and update gate) and parameters
+- **GRU** proved to more efficient. Faster due to simpler architecture and Computational load is lower  due to fewer gates (Reset and update gate) and parameters
 
 The models offer useful predictions that can assist traders and investors in making informed decisions. Further improvements can be made by fine-tuning the models, incorporating more features, and testing with other stock data.
